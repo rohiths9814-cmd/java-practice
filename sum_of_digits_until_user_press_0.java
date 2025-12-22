@@ -6,16 +6,10 @@ public class sum_of_digits_until_user_press_0 {
         Scanner in = new Scanner (System.in);
 
         int sum=0;
+        int value;
 
-        while(true){
-            int value = in.nextInt();
-            if(value==0){
-                break;
-            }
-            else{
-                sum+=value;
-            }
-
+        while((value = in.nextInt()) != 0 ){
+            sum+=value;
         }
 
         System.out.println(sum);
