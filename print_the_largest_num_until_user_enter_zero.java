@@ -5,20 +5,15 @@ public class print_the_largest_num_until_user_enter_zero {
         
         Scanner in = new Scanner(System.in);
 
-        int value;
-        int max=2;
+        int value=in.nextInt();
+        int max=value;
 
-        while(true){
+        while(value != 0){
             
-            value=in.nextInt();
-            if(value == 0){
-                break;
-            }
-            else{
-                if(value>max){
-                    max=value;
-                }
-            }
+            if(value>max){
+                max=value;
+           }
+           value=in.nextInt();
         }
 
         System.out.print(max);
