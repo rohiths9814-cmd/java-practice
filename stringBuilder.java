@@ -1,9 +1,9 @@
 public class stringBuilder {
     public static void main(String[] args) {
         
-        StringBuilder demo = new StringBuilder("HelloWorld");
+        StringBuilder demo = new StringBuilder("JavaXYZWorld");
 
-        demo.insert(5," Java ");
+        demo.delete(4,7);
         System.out.print(demo);
     }
 }
