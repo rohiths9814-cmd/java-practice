@@ -1,15 +1,9 @@
 public class stringBuilder {
     public static void main(String[] args) {
         
-        StringBuilder demo = new StringBuilder();
+        StringBuilder demo = new StringBuilder("HelloWorld");
 
-        demo.append("J");
-        demo.append("a");
-        demo.append("v");
-        demo.append("a");
-
+        demo.insert(5," Java ");
         System.out.print(demo);
-
-
     }
 }
