@@ -1,20 +1,10 @@
 public class stringBuilder {
     public static void main(String[] args) {
-
-        String example = "Java is very easy";
         
-        StringBuilder demo = new StringBuilder();
+        String demo = "banana";
 
-        for (int i = 0; i < example.length(); i++) {
-            
+        System.out.println(demo.indexOf("a"));
+        System.out.println(demo.lastIndexOf("a"));
 
-            if(example.charAt(i) == ' ') {
-                continue;
-            }
-
-            demo.append(example.charAt(i));
-        }
-
-        System.out.print(demo);
     }
 }
