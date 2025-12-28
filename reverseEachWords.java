@@ -1,9 +1,9 @@
 public class reverseEachWords {
     public static void main(String[] args) {
         
-        String a = "Java is easy";
+        String a = "abracadabra";
 
-        String words[] = a.split( " ");
+        String words[] = a.split( "a");
 
         StringBuilder reverse = new StringBuilder();
 
