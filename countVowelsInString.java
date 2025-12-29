@@ -2,7 +2,6 @@ public class countVowelsInString {
     public static void main(String[] args) {
         
         String a = "Education";
-        String vowels = "aeiou";
 
         int count=0;
 
@@ -11,8 +10,14 @@ public class countVowelsInString {
         for (int i = 0; i < a.length(); i++) {
 
             char ch = a.charAt(i);
-            if(vowels.contains(String.valueOf(ch))){
-                count++;
+            switch (ch) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    count++;
+                    
             }
         }
 
