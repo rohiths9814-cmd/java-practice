@@ -1,5 +1,3 @@
-package Array;
-
 public class printArray {
     public static void main(String[] args) {
         
