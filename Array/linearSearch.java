@@ -5,14 +5,20 @@ public class linearSearch {
 
         int target = 5;
 
+        int index = -1;
+
         for(int i = 0 ; i < arr.length ; i++){
 
             if(arr[i] == target){
-                System.out.println("Found at index "+ i);
+                index = i; 
                 break;
-            }else{
-                System.out.println("Not found");
             }
+        }
+
+        if (index != -1){
+            System.out.println("Fount at index "+index);
+        }else{
+            System.out.println("Not found");
         }
     }
 }
