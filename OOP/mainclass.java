@@ -31,16 +31,6 @@ public class mainclass {
         Parent p4 = p3;
 
         System.out.println("Money value of p1 is " + p1.money);
-        System.out.println("Money value of p2 is " + p2.money);
-        System.out.println("Money value of p3 is " + p3.money);
-        System.out.println("Money value of p4 is " + p4.money);
-        System.out.println("Property of p1 is" + p1.property);
-        System.out.println("Property of p2 is" + p2.property);
-        System.out.println("Property of p3 is" + p3.property);
-        System.out.println("Property of p4 is" + p4.property);
-        System.out.println("Number of houses for p1 is "+p1.house);
-        System.out.println("Number of houses for p2 is "+p2.house);
-        System.out.println("Number of houses for p3 is "+p3.house);
-        System.out.println("Number of houses for p4 is "+p4.house);
+        
     }
 }
