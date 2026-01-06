@@ -11,6 +11,9 @@ class Animal {
 class Dog extends Animal{
     String breed;
 
+    void makeSound(){
+        System.out.println("Dogs barks");
+    }
 }
 
 public class Zoo {
@@ -19,5 +22,6 @@ public class Zoo {
         Dog d1 = new Dog();
         d1.name = "Timmy";
         System.out.println(d1.name);
+        d1.makeSound();
     }
 }
