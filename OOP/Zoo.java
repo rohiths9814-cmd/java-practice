@@ -14,6 +14,22 @@ class Dog extends Animal{
     void makeSound(){
         System.out.println("Dogs barks");
     }
+
+    void fetch(){
+        System.out.println("Dog is fetching");
+    }
+}
+
+class Cat extends Animal {
+    String color;
+
+    void makeSound(){
+        System.out.println("Cat meows");
+    }
+
+    void climb() {
+        System.out.println("Cat is climbing");
+    }
 }
 
 public class Zoo {
@@ -21,7 +37,18 @@ public class Zoo {
         
         Dog d1 = new Dog();
         d1.name = "Timmy";
-        System.out.println(d1.name);
+        d1.age = 2;
+        d1.breed = "Golden";
         d1.makeSound();
+        d1.fetch();
+
+
+        Cat c1 = new Cat();
+        c1.name = "Zo zo";
+        c1.age = 1;
+        c1.color = "White";
+        c1.makeSound();
+        c1.climb();
+        
     }
 }
