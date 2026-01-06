@@ -8,12 +8,16 @@ class Animal {
     }
 }
 
+class Dog extends Animal{
+    String breed;
+
+}
+
 public class Zoo {
     public static void main(String[] args) {
         
-        Animal cat = new Animal();
-        cat.name = "cat";
-        cat.age = 1;
-        cat.makeSound();
+        Dog d1 = new Dog();
+        d1.name = "Timmy";
+        System.out.println(d1.name);
     }
 }
