@@ -24,7 +24,7 @@ public class day2 {
         System.out.println("Hello " + name + ", your are " +  age + " years old.");
         System.out.println("Grade : " +grade );
         System.out.println("Percentage : " +percentage );
-        System.out.println("Is passed : " +ispassed );
+        System.out.println("Is passed(true/false) : " +ispassed );
     }
 
 }
