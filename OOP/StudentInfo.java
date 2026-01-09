@@ -6,14 +6,11 @@ public class StudentInfo {
     public static void main(String[] args) {
         
         StudentInfo s1 = new StudentInfo();
-        StudentInfo s2 = new StudentInfo();
+        StudentInfo s2 = s1;
 
         s1.name = "Rohith";
         s1.rollno = 73152526048l;
 
-        s2.name = "Arun";
-        s1.rollno = 123456789l;
-
-        System.out.println(s1.name);
+        System.out.println(s2.name);
     }
 }
